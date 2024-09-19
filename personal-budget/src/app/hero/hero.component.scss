@@ -1,0 +1,32 @@
+/* Style for the Hero section */
+.hero-container {
+  height: 350px;
+  background-color: #b4c6f0;
+  background-image: url('/assets/bg.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-title {
+  font-size: 4em; /* Large font size for the title */
+  margin: 0; /* Remove default margin */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: color 0.3s ease; /* Smooth transition for text color on hover */
+}
+
+.hero-title:hover {
+  color: #4d5791; /* Change text color on hover */
+}
+
+/* Style for the subtitle */
+.hero-subtitle {
+  font-size: 1.5em; /* Slightly smaller font size for subtitle */
+  margin: 10px 0 0; /* Margin above the subtitle, no margin below */
+}

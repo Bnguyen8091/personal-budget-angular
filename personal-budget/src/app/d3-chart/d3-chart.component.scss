@@ -1,0 +1,21 @@
+svg {
+  display: block;
+  margin: 0 auto; /* Center the SVG horizontally */
+  border: 1px solid black; /* For debugging purposes */
+}
+
+.bar {
+  stroke-width: 1;
+  stroke: #000;
+}
+
+.x-axis path,
+.y-axis path {
+  fill: none;
+  shape-rendering: crispEdges;
+}
+
+.x-axis line,
+.y-axis line {
+  stroke: #000;
+}

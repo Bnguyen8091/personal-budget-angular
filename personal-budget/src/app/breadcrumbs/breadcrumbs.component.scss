@@ -1,0 +1,19 @@
+.breadcrumbs {
+  font-size: 2.2em; /* Increased font size */
+  color: #333;
+  margin-bottom: 0px; /* Space below the breadcrumbs */
+
+  a {
+    text-decoration: none;
+    color: #1a73e8;
+    margin-right: 5px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  span {
+    color: #666;
+  }
+}
